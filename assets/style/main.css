@@ -1,0 +1,111 @@
+li{
+    list-style: none;
+}
+
+.nav__list-item{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-left: 18px;
+    color: black;
+}
+
+.header__right{
+    margin-left: 400px;
+    gap: 16px;
+}
+
+.header__right i{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 32px;
+    width: 32px;
+    height: 32px;
+    background-color: rgb(140, 59, 215);
+}
+
+.header__right i:nth-child(5){
+    color: black;
+    background-color: transparent;
+}
+
+.size{  
+    font-size: 60px;
+    color: black;
+    line-height: 64px;
+    font-weight: 700;
+}
+
+.size_1{
+    margin-top: 16px;
+    font-size: 20px;
+    color: dimgray;
+    line-height: 32px;
+    font-weight: 500;
+    max-width: 600px;
+}
+
+.mt{
+    margin-top: 200px;
+}
+
+.mt1{
+    margin-top: 72px;
+}
+
+.ml{
+    margin-left: 72px;
+}
+
+.btn{
+    width: 177px;
+    height: 56px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 16px;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(140, 59, 215);
+}
+
+.topside__right-bg{
+    margin-top: -50px;
+    width: 600px;
+    height: 600px;
+    background-size: contain;
+    background-image: url("../img/purple-circle.png");
+}
+
+.image{
+    margin-left: -40px;
+    margin-top: 140px;
+    width: 600px;
+    height: 400px;
+    transform: rotate(-10deg);
+}
+
+.topside__right-bg1{
+    margin-left: 150px;
+    margin-top: -10px;
+    width: 80px;
+    height: 80px;
+    background-size: contain;
+    background-image: url("../img/aqua-circle.png");
+}
+
+.list{
+    gap: 56px;
+    animation: 5s;
+}
+
+.item img{
+    object-fit: cover;
+    width: 80px;
+    height: 80px;
+}
+
+@keyframes list{
+
+}
